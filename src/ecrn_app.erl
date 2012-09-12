@@ -62,7 +62,6 @@ stop(_State) ->
 %%
 manual_start() ->
     application:start(crypto),
-    application:start(eunit),
     application:start(sasl),
     application:start(erlcron).
 

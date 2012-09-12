@@ -23,8 +23,7 @@
    {applications,
     [kernel,
      stdlib,
-     sasl,
-     eunit]},
+     sasl]},
 
    {mod,
     {ecrn_app, []}}
